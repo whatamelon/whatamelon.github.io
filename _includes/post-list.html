@@ -1,5 +1,8 @@
 <li class="catalogue-item">
     <a href="{{ page.url | prepend: site.baseurl }}" >
+        {% if page.img == true %}
+        <img src="{{ page.main-img }}" class="catalogue-img"/>
+        {% endif %}
         <p class="catalogue-type">
             {{ page.type }}
         </p>

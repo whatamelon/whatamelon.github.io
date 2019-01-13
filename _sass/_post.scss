@@ -17,18 +17,8 @@
 //project header
 
 .project-header {
-        display: flex;
         font-family: $source, $san-serif;
-        color: $white;
-        height: 100%;
-        
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
+        color: $grey-0;
     .header-project-title {
         font-weight: 700;
         font-size: 38px;

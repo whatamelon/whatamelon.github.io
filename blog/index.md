@@ -1,10 +1,9 @@
 ---
 layout: default
 title: "Blog"
+description: 아주 가끔씩 올리는 관심 분야의 글
 main: true
-project-header: true
 header-img: img/about.jpg
-description: 관심 분야의 글을 아주 가끔씩 올립니다.
 ---
 
 <ul class="catalogue">

@@ -3,9 +3,9 @@ layout: default
 work: true
 main: true
 title: Selected Projects
+description: 지금까지 진행해 온 프로젝트
 project-header: true
 header-img: "img/project_bg.jpg"
-description: 진행해 온 프로젝트를 종종 글로 씁니다.
 ---
 
 <div class="catalogue">
