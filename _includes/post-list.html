@@ -3,15 +3,15 @@
         {% if page.img == true %}
         <img src="{{ page.main-img }}" class="catalogue-img"/>
         {% endif %}
+        {% if page.draft == true %}
+        <span class="catalogue-tag">
+            Coming Soon
+        </span>
+        {% endif %}
         <p class="catalogue-type">
             {{ page.type }}
         </p>
         <div class="catalogue-info transition">
-            {% if page.draft == true %}
-            <span class="catalogue-tag">
-                Coming Soon
-            </span>
-            {% endif %}
             <h1 class="catalogue-title">
                 {{ page.title }}
             </h1>

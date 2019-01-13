@@ -5,7 +5,7 @@ subtitle: "마음에 드는 전자책 속 문장을 멋지게 공유하는 방�
 type: "RIDIBOOKS"
 projects: true
 ridi: true
-text: true
+draft: true
 img: true
 author: "Jihye Leee"
 post-header: true
