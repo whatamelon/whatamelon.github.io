@@ -27,7 +27,7 @@ div.resume-info {
     .workplace {
         width: 100%;
         padding: 30px 0;
-        border-top: 1px solid $grey-2;
+        border-top: 1px solid rgba(0,0,0,.07);
         
         .workplace-name {
             font-family: $san-serif;
@@ -61,7 +61,7 @@ div.resume-info {
     }
     
     .workplace:last-child {
-        border-bottom: 1px solid $grey-2;
+        border-bottom: 1px solid rgba(0,0,0,.07);
     }
     
     a {
