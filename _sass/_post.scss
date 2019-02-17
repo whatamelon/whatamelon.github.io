@@ -308,3 +308,35 @@ sup {
 .share-twitter {
     position: absolute;
 }
+
+// portfolio
+.portfolio-info {
+    margin-bottom: 48px;
+    width: 100%;
+    border: 1px solid #D8E0E7;
+    border-radius: 6px;
+    padding: 24px;
+        @media (max-width: $break-small) {
+            padding: 20px;
+        }
+    
+    p {
+        margin: 0;
+    }
+    
+    section { 
+        .portfolio-property {
+            font-weight: 600;
+            font-size: 22px;
+            @media (max-width: $break-small) {
+                font-size: 20px;
+            }
+        }
+        
+        .info-small {
+            padding: 10px 0 24px 0;
+            color: $grey-1;
+            font-size: 16px;
+        }
+    }
+}

@@ -20,7 +20,20 @@ layout: default
         <h2 class="post-subtitle">
             {{ page.subtitle }}
         </h2>
-  </div>
+    </div>
+    
+    {% if page.portfolio == true %}
+    <article class="portfolio-info">
+        <section>
+            <span class="portfolio-property">{{ page.job-title }}</span>
+            <p class="info-small">{{ page.role }}</p>
+        </section>
+        <section>
+            <p>{{ page.duration }}</p>
+        </section>    
+    </article>
+    {% endif %}
+    
     {{ content }}
 
     {% if page.draft == true %}
