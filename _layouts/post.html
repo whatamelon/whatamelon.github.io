@@ -24,13 +24,23 @@ layout: default
     
     {% if page.portfolio == true %}
     <article class="portfolio-info">
-        <section>
-            <span class="portfolio-property">{{ page.job-title }}</span>
-            <p class="info-small">{{ page.role }}</p>
-        </section>
-        <section>
-            <p>{{ page.duration }}</p>
-        </section>    
+        <div>
+            <span class="info-title">Role</span>
+            <p class="info-medium">{{ page.role-title }}</p>
+            <p class="info-small">{{ page.role-specific }}</p>
+        </div>
+        <div>
+            <span class="info-title">Team</span>
+            <p class="info-medium">{{ page.team }}</p>
+        </div>
+        <div>
+            <span class="info-title">Platforms</span>
+            <p class="info-medium">{{ page.platforms }}</p>
+        </div>    
+        <div>
+            <span class="info-title">Date</span>
+            <p class="info-medium">{{ page.date }}</p>
+        </div>    
     </article>
     {% endif %}
     

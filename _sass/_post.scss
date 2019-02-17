@@ -105,7 +105,7 @@
         font-weight: 500;
     }
     
-    h4, h5, h6 {
+    h4, h5 {
         padding: 12px 0 8px 0;
     }
     
@@ -114,8 +114,15 @@
     }
     
     h6 {
-        font-size: 15px;
+        font-size: 17px;
+        padding-bottom: 40px;
         color: $grey-1;
+        font-weight: 400;
+        text-align: center;
+        @media (max-width: $break-small) {
+            font-size: 15px;
+        }
+        
     }
     
     figcaption {
@@ -311,32 +318,38 @@ sup {
 
 // portfolio
 .portfolio-info {
-    margin-bottom: 48px;
+    margin-bottom: 16px;
     width: 100%;
     border: 1px solid #D8E0E7;
     border-radius: 6px;
-    padding: 24px;
-        @media (max-width: $break-small) {
-            padding: 20px;
-        }
+    padding: 0 24px 20px 24px;
     
     p {
         margin: 0;
     }
     
-    section { 
-        .portfolio-property {
-            font-weight: 600;
-            font-size: 22px;
-            @media (max-width: $break-small) {
-                font-size: 20px;
-            }
-        }
-        
-        .info-small {
-            padding: 10px 0 24px 0;
-            color: $grey-1;
-            font-size: 16px;
+    .info-title {
+        margin-top: 16px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 20px;
+        @media (max-width: $break-small) {
+            font-size: 20px;
         }
     }
+
+    .info-medium {
+        color: $grey-0-80;
+        font-size: 17px;
+    }
+    
+    .info-small {
+        font-size: 16px;
+        letter-spacing: .4px;
+        color: $grey-1;
+    }
+}
+
+video {
+    margin-bottom: 16px;
 }
