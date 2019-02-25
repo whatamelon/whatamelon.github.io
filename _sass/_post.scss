@@ -83,8 +83,8 @@
     
     h1 { 
         padding: 40px 0 16px 0;
-        font-weight: 600;
-        font-size: 27px;
+        font-weight: 700;
+        font-size: 28px;
         letter-spacing: -0.009em;
     }
     
@@ -94,8 +94,8 @@
     
     h2 {
         padding: 30px 0 12px 0;
-        font-weight: 600;
-        font-size: 22px;
+        font-weight: 700;
+        font-size: 25px;
     }
     
     h2:first-child {
@@ -104,8 +104,8 @@
     
     h3 {
         padding: 20px 0 10px 0;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 22px;
+        font-weight: 600;
     }
     
     h4, h5 {
@@ -117,6 +117,7 @@
     }
     
     h6 {
+        line-height: 1.6;
         font-size: 17px;
         padding-bottom: 40px;
         color: $grey-1;
