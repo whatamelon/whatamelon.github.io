@@ -2,8 +2,8 @@
 layout: default
 work: true
 main: true
-title: Books Lists
-description: 책 큐레이션
+title: Curation for books
+description: 리디북스, 리디셀렉트에서 읽을만한 책 추천!
 project-header: true
 header-img: "img/project_bg.jpg"
 ---
@@ -11,7 +11,7 @@ header-img: "img/project_bg.jpg"
 <div class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
 {% for page in sorted %}
-{% if page.projects == true %}
+{% if page.book == true %}
 
      {% include post-list.html %}
 

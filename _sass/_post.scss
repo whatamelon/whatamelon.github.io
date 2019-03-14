@@ -81,6 +81,34 @@
         text-decoration-color: $purple;
     }
     
+        a.book-link {
+            background-image: none;
+
+            .book-cover {
+                width: 30%;
+                display: inline-block;
+                border: 1px solid rgba(0,0,0,.15);
+                margin: 24px 11px;
+                border-radius: 5px;
+                box-shadow: 0px 8px 24px -7px rgba(0,0,0,0.03);
+                
+                @media (max-width: 914px) {
+                    margin: 22px 8px;
+                }
+                
+                @media (max-width: $break-small ) {
+                    width: 30%;
+                    margin: 18px 4px;
+                    border-radius: 3px;
+                }
+            }
+            .book-cover:hover {
+                border: 1px solid #8565fc;
+            }
+            
+        }
+    
+    
     h1 { 
         padding: 40px 0 16px 0;
         font-weight: 700;

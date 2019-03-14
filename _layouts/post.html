@@ -22,6 +22,8 @@ layout: default
         </h2>
     </div>
     
+<!--포트폴리오 상단 정보-->
+    
     {% if page.portfolio == true %}
     <article class="portfolio-info">
         <div>
@@ -43,9 +45,9 @@ layout: default
         </div>    
     </article>
     {% endif %}
-    
-    {{ content }}
 
+<!--draft 일 때-->
+    
     {% if page.draft == true %}
         <div class="catalogue-draft-message">
             <h1>
@@ -54,5 +56,19 @@ layout: default
             현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
         </div>
     {% endif %}
+    
+<!--큐레이션 영역-->
+    {{ content }}
+    
+    {% if page.book == true %}
+        {% for book-list in site.data[page.data-name] %}   
+            <a href="https://ridibooks.com/v2/Detail?id={{ book-list.bookid }}" target="_blank" class="book-link">
+                <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge"/>
+            </a>   
+
+        {% endfor %}
+    {% endif %}
+    
+
     
 </div>
