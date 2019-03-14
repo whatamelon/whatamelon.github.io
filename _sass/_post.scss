@@ -83,11 +83,11 @@
     
         a.book-link {
             background-image: none;
-
+            
             .book-cover {
                 width: 30%;
                 display: inline-block;
-                border: 1px solid rgba(0,0,0,.15);
+                border: 1px solid rgba(0,0,0,.1);
                 margin: 24px 11px;
                 border-radius: 5px;
                 box-shadow: 0px 8px 24px -7px rgba(0,0,0,0.03);
@@ -105,8 +105,10 @@
             .book-cover:hover {
                 border: 1px solid #8565fc;
             }
-            
         }
+            a.book-link:after {
+                    background: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,0) 5%,rgba(0,0,0,0) 95%,rgba(0,0,0,.2) 100%);  
+            }
     
     
     h1 { 
