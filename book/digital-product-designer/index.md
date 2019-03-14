@@ -8,7 +8,7 @@ book: true
 post-header: true
 header-img: "https://images.unsplash.com/photo-1552326450-abcda8e9fb3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
 order: 1
-data-name: b-digital-product-design
+data-name: b-digital-product-designer
 ---
 
 리디북스, 리디셀렉트에는 확실히 `디자인`으로 분류된 책 중 읽을만한 책이 많이 없다. 그렇지만 조금 시야를 넓히면 그래도 읽을만한 책들이 꽤 있다. 아래 책들이 `디지털 프로덕트 디자인`과 확실하게 관련이 있다고 단언할 수는 없다. 그래도 각각 다양한 부분에서 도움을 받았다.
