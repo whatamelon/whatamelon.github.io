@@ -8,7 +8,7 @@ text: true
 book: true
 post-header: true
 header-img: "https://images.unsplash.com/photo-1550941828-00b8058c4545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
-order: 1
+order: 2
 data-name: b-recent-feb
 ridiselect: true
 link: "https://select.ridibooks.com/book/"
