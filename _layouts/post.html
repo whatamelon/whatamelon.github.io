@@ -61,12 +61,20 @@ layout: default
     {{ content }}
     
     {% if page.book == true %}
-        {% for book-list in site.data[page.data-name] %}   
-            <a href="https://ridibooks.com/v2/Detail?id={{ book-list.bookid }}" target="_blank" class="book-link">
-                <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge"/>
-            </a>   
-
-        {% endfor %}
+        {% if page.ridibooks == true %}
+            {% for book-list in site.data[page.data-name] %}   
+                <a href="https://ridibooks.com/v2/Detail?id={{ book-list.bookid }}" target="_blank" class="book-link">
+                    <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge"/>
+                </a>   
+            {% endfor %}
+        {% endif %}
+        {% if page.ridiselect == true %}
+            {% for book-list in site.data[page.data-name] %}   
+                <a href="https://select.ridibooks.com/book/{{ book-list.bookid }}" target="_blank" class="book-link">
+                    <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge?dpi=xxhdpi"/>
+                </a>   
+            {% endfor %}
+        {% endif %}
     {% endif %}
     
 
