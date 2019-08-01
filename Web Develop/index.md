@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Blog"
-description: 아주 가끔씩 관심 분야의 글을 올려요.
+title: "Web Develop"
+description: 웹 개발 프로젝트 및 에러 모음집
 main: true
 project-header: true
 header-img: img/about.jpg

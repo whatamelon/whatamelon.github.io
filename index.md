@@ -6,6 +6,17 @@ subtitle: seungho hong git blog main
 description: seungho hong git blog background , intro , main
 ---
 <style>
+
+main,
+footer>.footer_wrap,
+.nav-container {
+  margin: 0px 0px 0px 0px;
+  max-width: 100%;
+  width: 100%;
+    @media (max-width: $break-small) {
+        width: 88%;
+    }
+}
 canvas {
     height:1080px;
     position:relative;
@@ -18,6 +29,19 @@ canvas {
     z-index:1;
 }
 
+section.skill {
+    margin-left:25%;
+    li.skill_name {
+        display: inline-block;
+        font-family: $source;
+        padding: 4px 14px;
+        border-radius: 100px;
+        border: solid 1px $grey-2;
+        font-size: 16px;
+        margin: 0 8px 14px 0;
+    }
+}
+
 </style>
 
 <div id="particles">
@@ -27,7 +51,22 @@ canvas {
 <div class="in">
 <img src="./img/logo.png"/>
 
-
+<section class="skill">
+<ul>
+<li class="skill_name">
+<a href="{{ '/Web Develop' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Web Develop</a>
+</li>
+<li class="skill_name">
+<a href="{{ '/GO Lang' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >GO Lang</a>
+</li>
+<li class="skill_name">
+<a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Blog</a>
+</li>
+<li class="skill_name">
+<a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >Who am I ?</a>
+</li>
+</ul>
+</section>
 
 </div>
 

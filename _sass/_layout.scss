@@ -11,14 +11,13 @@
 main,
 footer>.footer_wrap,
 .nav-container {
-  margin: 0px 0px 0px 0px;
-  max-width: 100%;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 750px;
+  width: 80%;
     @media (max-width: $break-small) {
         width: 88%;
     }
 }
-
 .nav {
     overflow: auto;
     padding: 24px 0;
