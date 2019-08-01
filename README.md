@@ -1,4 +1,4 @@
-# This is my blog
+# It's good to see you! XD
 https://whatamelon.github.io/
 ![image](./img/gitblog_introPic.png)
 
