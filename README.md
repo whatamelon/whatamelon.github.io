@@ -1,6 +1,6 @@
-# This is my portfolio site based on blog.
-http://jihyeleee.com/
-![image](http://www.jihyeleee.com/img/share-img.jpg)
-It's forked from (chesterhow/tale)[https://github.com/chesterhow/tale].
+# This is my blog
+https://whatamelon.github.io/
+![image](./img/gitblog_introPic.png)
 
-© Jihye Leee. 2017
+Copyright whatamelon. 2019
+forked from https://github.com/iamleejihye/iamleejihye.github.io
