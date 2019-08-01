@@ -3,8 +3,8 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          whatamelon
-baseurl:        ""
-url:            "http://www.jihyeleee.com"
+baseurl:        "https://whatamelon.github.io/"
+url:            "https://whatamelon.github.io/"
 
 # Assets
 sass:
