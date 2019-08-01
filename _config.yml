@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Jihye Leee
+title:          whatamelon
 baseurl:        ""
 url:            "http://www.jihyeleee.com"
 
@@ -16,13 +16,12 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Jihye Leee
-  url:          http://jihyeleee.com/
-  email:        iam.leejihye@gmail.com  
-  github:       iamleejihye
-  twitter:      playpingpong
+  name:         whatamelon
+  url:          https://whatamelon.github.io/
+  email:        hsh0617@naver.com
+  github:       whatamelon
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/iamleejihye/iamleejihye.github.io
+  repo:         https://github.com/whatamelon/whatamelon.github.io
