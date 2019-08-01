@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Blog"
+title: "GO Lang"
 description: GO Lang 관련 공부글을 올립니다.
 main: true
 project-header: true
