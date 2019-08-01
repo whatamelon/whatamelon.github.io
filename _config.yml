@@ -3,7 +3,7 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          whatamelon
-baseurl:        "https://whatamelon.github.io/"
+baseurl:        ""
 url:            "https://whatamelon.github.io/"
 
 # Assets

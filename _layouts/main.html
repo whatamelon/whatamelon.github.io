@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    {% assign current = page.url | downcase | split: '/' %}
+     
+    <main>
+        
+      {{ content }}
+        
+      </main>
+   
+  </body>
+</html>
