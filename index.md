@@ -30,7 +30,7 @@ canvas {
 }
 
 section.skill {
-    margin-left:25%;
+    margin-left:33%;
     li.skill_name {
         display: inline-block;
         font-family: $source;
@@ -54,10 +54,7 @@ section.skill {
 <section class="skill">
 <ul>
 <li class="skill_name">
-<a href="{{ '/Web Develop' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Web Develop</a>
-</li>
-<li class="skill_name">
-<a href="{{ '/GO Lang' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >GO Lang</a>
+<a href="{{ '/Develop' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Develop</a>
 </li>
 <li class="skill_name">
 <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Blog</a>

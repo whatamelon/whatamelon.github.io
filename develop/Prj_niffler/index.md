@@ -2,7 +2,8 @@
 layout: post
 title:  "세번째 프로젝트 후기 Prj_Niffler"
 subtitle: "개발 신생아의 개발 일기3"
-blog: true
+develop: true
+type: Project
 text: true
 author: "Seungho Hong"
 post-header: true
