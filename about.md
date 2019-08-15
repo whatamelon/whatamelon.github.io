@@ -6,7 +6,7 @@ type: "About"
 author: "Seungho Hong"
 permalink: /about/
 post-header: true
-header-img: img/about.jpg
+header-img: img/about.png
 ---
 <br/>
 <h4 style="color:#FB8C00">Who am I?<h4>
