@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog"
-description: 일상 및 취미 피드.
+description: 일상 피드.
 main: true
 project-header: true
 header-img: img/about.jpg
