@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "SCDREAM";
+        src: url( '../_assets/fonts/SCDREAM4.OTF') format( 'embedded-opentype');
+  }
+
 .second-label {
     margin: 80px 0 20px 0;
-    font-family: $source;
+    font-family: SCDREAM;
     font-size: 18px;
     font-weight: 600;
     color: $orange;
@@ -49,7 +54,7 @@ div.resume-info {
             p.work-sub-info {
                 color: $default-tint;
                 font-size: 16px;
-                font-family: $source;
+                font-family: SCDREAM;
                 font-weight: 400;
             }
         }
@@ -69,7 +74,7 @@ div.resume-info {
             display: inline-block;
             color: $default-tint;
             font-size: 18px;
-            font-family: $source;
+            font-family: SCDREAM;
             font-weight: 600;
             margin: 20px 0;
             
@@ -96,7 +101,7 @@ section.skill {
     
     li.skill_name {
         display: inline-block;
-        font-family: $source;
+        font-family: SCDREAM;
         padding: 4px 14px;
         border-radius: 100px;
         border: solid 1px $grey-2;

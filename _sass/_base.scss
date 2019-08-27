@@ -3,6 +3,11 @@
   line-height: 1.5;
 }
 
+@font-face {
+  font-family: "SCDREAM";
+      src: url( '../_assets/fonts/SCDREAM4.OTF') format( 'embedded-opentype');
+}
+
 html,
 body {
   color: $grey-0;
@@ -11,7 +16,7 @@ body {
 }
 
 html {
-  font-family: $san-serif, $source;
+  font-family: SCDREAM;
   font-size: 17px;
 
   @media (min-width: $break-small) {

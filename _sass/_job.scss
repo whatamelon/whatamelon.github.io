@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "SCDREAM";
+        src: url( '../_assets/fonts/SCDREAM4.OTF') format( 'embedded-opentype');
+  }
+
+.second-label {
+    margin: 80px 0 20px 0;
+    font-family: SCDREAM;
+    font-size: 18px;
+    font-weight: 600;
+    color: $orange;
+    vertical-align: middle;
+    
+    .label-emoji {
+        font-size: 26px;
+    }
+    
+}
+
+div.job-head {
+    position: relative;
+
+    svg {
+        width: 24px;
+        fill: $orange;
+        position: absolute;
+    }
+}
+
+.job-info{
+    
+    border: 1px solid;
+    border-bottom: transparent;
+    border-top: transparent;
+    width: 25%;
+    text-align: center;
+
+    div{
+        margin: 5px 0px;
+    }
+
+    &__title{
+        font-weight: 700;
+    }
+
+    &__term {
+        color:#BDBDBD;
+        font-size:0.8em;
+    }
+
+    &__service{
+        a{
+        color:#FB8C00;
+    }
+}
+
+}
+
+section.job {
+    svg {
+        width: 24px;
+        fill: $orange;
+        position: absolute;
+    }
+    
+}
+
+@keyframes moving {
+    from {
+        opacity: .3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.loading-animation {
+    animation-name: moving;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}

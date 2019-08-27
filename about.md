@@ -18,12 +18,20 @@ header-img: img/about.png
 <br/>
 <br/>
 
-<h4>
+<h4 style="font-size:17px; font-weight:bold;">
 
-2018년 여름 처음으로 코딩을 제대로 시작한 이후로 웹 개발에 흥미를 느껴 웹 개발을 공부하는 개발자이다. Front-end를 주로 한다. Anaconda3(keras_talk) , Vue.js , Node.js , Hadoop 등등을 공부했다. 요즘은 GO Lang를 공부하고 있다. (아무튼 재밌어 보이면 일단 건드리고 본다 --) 계속해서 발전하는 개발자로 기억되고 싶다.
+2018년 여름 처음으로 코딩을 제대로 시작했고, 현재는 프론트엔드 개발자이다. 
+<br/>
+프론트, 백, DB 가리지 않고 다한다!
+<br/>
+요즘은 Nuxt.js , React-Native를 공부하고 있다. (아무튼 재밌어 보이면 일단 건드리고 본다 --) 
+<br/>
+계속해서 발전하는 개발자로 기억되고 싶다.
 
 </h4>
 
 <br />
+{% include job.html %}
 
+<br />
 {% include resume.html %}

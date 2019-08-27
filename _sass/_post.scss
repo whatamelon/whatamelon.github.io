@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "SCDREAM";
+        src: url( '../_assets/fonts/SCDREAM4.OTF') format( 'embedded-opentype');
+  }
 
 //post header
 
@@ -17,7 +21,7 @@
 //project header
 
 .project-header {
-        font-family: $source, $san-serif;
+        font-family: SCDREAM;
         color: $grey-0;
     .header-project-title {
         font-weight: 700;
@@ -231,7 +235,7 @@
         }
         
         h1 {
-            font-family: $source;
+            font-family: SCDREAM;
             letter-spacing: 0.01em;
             color: $orange;
             padding-bottom: 7px;
@@ -255,7 +259,7 @@ sup {
 .post-type {
     color: $orange;
     font-size: 18px;
-    font-family: $source;
+    font-family: SCDREAM,$source;
     font-weight: 600;
 }
 
@@ -291,7 +295,7 @@ sup {
 }
 
 .catalogue-tag {
-    font-family: $source;
+    font-family: SCDREAM;
     display: inline-block;
     margin-bottom: 2px;
     text-transform: uppercase;

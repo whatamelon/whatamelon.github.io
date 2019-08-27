@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "SCDREAM";
+        src: url( '../_assets/fonts/SCDREAM4.OTF') format( 'embedded-opentype');
+  }
+
 .intro-animation {
     animation-name: moving;
     animation-duration: 0.6s;
@@ -13,7 +18,7 @@ section.explanation {
     }
     
     h1.intro {
-        font-family: $source, $san-serif;
+        font-family: SCDREAM;
         font-size: 38px;
         font-weight: bold;
         line-height: 1.17;

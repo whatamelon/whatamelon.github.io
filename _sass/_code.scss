@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "SCDREAM";
+      src: url( '../_assets/fonts/SCDREAM4.OTF') format( 'embedded-opentype');
+}
+
 pre,
 code {
-  font-family: $monospaced-font;
+  font-family: SCDREAM;
 }
 
 code {

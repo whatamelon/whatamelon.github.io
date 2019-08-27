@@ -33,7 +33,7 @@ section.skill {
     margin-left:33%;
     li.skill_name {
         display: inline-block;
-        font-family: $source;
+        font-family: SCDREAM,$source;
         padding: 4px 14px;
         border-radius: 100px;
         border: solid 1px $grey-2;
