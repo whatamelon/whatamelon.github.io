@@ -35,11 +35,11 @@ $break-medium: 900px;
 $break-small: 670px;
 
 // font-family 정의
-// $san-serif: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
+// SCDREAM: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
 // $serif: "Nanum Myeongjo",sans-serif;
-// $source: 'Source Sans Pro', sans-serif;
+// SCDREAM: 'Source Sans Pro', sans-serif;
 $SCDREAM : 'SCDREAM1.OTF','SCDREAM2.OTF','SCDREAM3.OTF','SCDREAM4.OTF','SCDREAM5.OTF','SCDREAM6.OTF','SCDREAM7.OTF','SCDREAM8.OTF','SCDREAM9.OTF';
-// $monospaced-font: Menlo, Monaco, monospace;
+// $SCDREAMd-font: Menlo, Monaco, SCDREAM;
 // $code-color: #bf616a;
 
 @mixin box-sizing($type: border-box) {
