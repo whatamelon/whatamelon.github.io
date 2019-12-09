@@ -7,7 +7,7 @@ type: Nuxt
 text: true
 author: "Seungho Hong"
 post-header: true
-header-img : "img/doors.png"
+header-img : "img/doors.jpg"
 order: 5
 ---
 
