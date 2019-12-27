@@ -8,6 +8,7 @@ text: true
 author: "Seungho Hong"
 post-header: true
 header-img : "img/doors.jpg"
+date: 2019.12.07
 order: 5
 ---
 

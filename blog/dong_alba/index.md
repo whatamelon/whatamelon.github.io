@@ -5,6 +5,7 @@ subtitle: "#월급루팡 #소원성취 #인턴십이라쓰고 개꿀알바라 �
 blog: true
 type: Part_time
 text: true
+date: 2019.08.20
 author: "Seungho Hong"
 post-header: true
 header-img : "img/dong.jpg"

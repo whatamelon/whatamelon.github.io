@@ -8,6 +8,7 @@ text: true
 author: "Seungho Hong"
 post-header: true
 header-img : "img/prj_niffler.jpg"
+date: 2019.08.13
 order: 3
 ---
 

@@ -45,6 +45,18 @@
             }
             
         }
+
+        p.catalogue-date{
+            color: #999;
+            display: block;
+            font-family: SCDREAM;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.5;
+            letter-spacing: -0.009em;
+            position: relative;
+            padding: 5px 0 20px 0;
+        }
         
         h1.catalogue-title {
             color: $grey-0;

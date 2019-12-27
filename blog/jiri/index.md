@@ -5,6 +5,7 @@ subtitle: "뜻밖의 여정"
 blog: true
 type: Travel
 text: true
+date: 2019.08.20
 author: "Seungho Hong"
 post-header: true
 header-img : "img/jiri_head.png"

@@ -5,6 +5,7 @@ subtitle: "#직딩"
 blog: true
 type: Review
 text: true
+date: 2019.12.27
 author: "Seungho Hong"
 post-header: true
 header-img : "img/adieu2019.jpg"

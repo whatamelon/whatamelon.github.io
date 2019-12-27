@@ -7,6 +7,7 @@ type: JavaScript
 text: true
 author: "Seungho Hong"
 post-header: true
+date: 2019.12.07
 header-img : "img/axios.png"
 order: 4
 ---

@@ -5,6 +5,7 @@ subtitle: "#첫직장 #스타트업 #여기서시작"
 blog: true
 type: JOB
 text: true
+date: 2019.12.09
 author: "Seungho Hong"
 post-header: true
 header-img : "img/startup.jpg"
