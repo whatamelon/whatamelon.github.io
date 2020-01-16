@@ -8,7 +8,7 @@ text: true
 author: "Seungho Hong"
 post-header: true
 header-img : "img/doors.jpg"
-date: 2019.12.07
+date: 2019.01.16
 order: 5
 ---
 
@@ -115,7 +115,7 @@ order: 5
 
 #### 공식 문서에는 네이티브와 같은 UI를 보여준다고 하지만, 아래 gif를 보면 알 수 있듯이, 성능은 완벽하지는 않다. 
 
-![image](.develop/nuxt_transition/img/nuxtTransition.gif)
+![image](img/nuxtTransition.gif)
 
 #### 하지만 웹앱을 구현하는 프로젝트나, 페이지간 트렌지션이 필요한 서비스에는 충분히 좋은 대안이라고 생각한다.
 
