@@ -1,5 +1,5 @@
 # It's good to see you! XD
-https://whatamelon.github.io/
+https://summerclout.dev
 ![image](./img/gitblog_introPic.png)
 
 Copyright whatamelon. 2019.
