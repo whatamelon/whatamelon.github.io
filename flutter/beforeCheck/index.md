@@ -3,7 +3,7 @@ layout: post
 title:  "Flutter 개발 하기전 체크사항!"
 subtitle: "꼭 플러터로 하이브리드앱을 개발해야하는가?"
 description: "flutter 플러터"
-develop: true
+flutter: true
 type: flutter
 text: true
 author: "Seungho Hong"
