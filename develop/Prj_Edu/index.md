@@ -2,6 +2,7 @@
 layout: post
 title:  "첫번째 프로젝트 후기 Prj_Edu"
 subtitle: "개발 신생아의 개발 일기1"
+description: "개발 프로젝트 코딩 대학생"
 develop: true
 type: Project
 text: true

@@ -2,6 +2,7 @@
 layout: post
 title:  "2019년 후기"
 subtitle: "#직딩"
+description: "2019년 갈무리"
 blog: true
 type: Review
 text: true

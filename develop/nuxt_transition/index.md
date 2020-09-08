@@ -2,6 +2,7 @@
 layout: post
 title:  "nuxt transition"
 subtitle: "네이티브인 척 하기"
+description: "nuxt javascript 자바스크립트"
 develop: true
 type: Nuxt
 text: true

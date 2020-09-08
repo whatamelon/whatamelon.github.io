@@ -2,6 +2,7 @@
 layout: post
 title:  "팀합류"
 subtitle: "#첫직장 #스타트업 #여기서시작"
+description: "첫직장 스타트업"
 blog: true
 type: JOB
 text: true

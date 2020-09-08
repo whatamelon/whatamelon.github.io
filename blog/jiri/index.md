@@ -2,6 +2,7 @@
 layout: post
 title:  "지리산 둘레길 트레킹"
 subtitle: "뜻밖의 여정"
+description: "지리산 둘레길 트래킹"
 blog: true
 type: Travel
 text: true

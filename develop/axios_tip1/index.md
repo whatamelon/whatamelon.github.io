@@ -2,6 +2,7 @@
 layout: post
 title:  "Axios 유연하게 사용하기"
 subtitle: "소소한 코딩생각"
+description: "nuxt axios api"
 develop: true
 type: JavaScript
 text: true

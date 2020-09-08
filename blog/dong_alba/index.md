@@ -2,6 +2,7 @@
 layout: post
 title:  "대학생 관공서 알바 후기"
 subtitle: "#월급루팡 #소원성취 #인턴십이라쓰고 개꿀알바라 읽는다"
+description: "대학생 관공서 알바"
 blog: true
 type: Part_time
 text: true
