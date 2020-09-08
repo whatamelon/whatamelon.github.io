@@ -54,6 +54,9 @@ section.skill {
 <section class="skill">
 <ul>
 <li class="skill_name">
+<a href="{{ '/flutter' | prepend: site.baseurl }}" {% if current[1] == "flutter" %} class="active"{% endif %} >Flutter</a>
+</li>
+<li class="skill_name">
 <a href="{{ '/develop' | prepend: site.baseurl }}" {% if current[1] == "develop" %} class="active"{% endif %} >Develop</a>
 </li>
 <li class="skill_name">

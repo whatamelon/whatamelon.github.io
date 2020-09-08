@@ -9,7 +9,10 @@
         <div class="nav-container">
             <ul>
                 <li class="transition">
-                    <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "develop" or current[1] == "blog" %} class="normal" {% endif %}  class="active">Home</a>
+                    <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about"  or current[1] == "flutter" or current[1] == "develop" or current[1] == "blog" %} class="normal" {% endif %}  class="active">Home</a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/flutter' | prepend: site.baseurl }}" {% if current[1] == "flutter" %} class="active"{% endif %} >Flutter</a>
                 </li>
                 <li class="transition">
                     <a href="{{ '/develop' | prepend: site.baseurl }}" {% if current[1] == "develop" %} class="active"{% endif %} >Develop</a>
