@@ -11,7 +11,7 @@ header-img: img/about.png
 <br/>
 <h4 style="color:#FB8C00">Who am I?<h4>
 <br/>
-<h1>Seungho Hong</h1>
+<h1>Denny Hong</h1>
 <br/>
 <p style="font-size:30px;color:#BDBDBD;">홍승호</p>
 
@@ -20,14 +20,13 @@ header-img: img/about.png
 
 <div class="intro" style="font-weight:bold;">
 
-2018년 여름 과방에서 키보드 뚜들기기 시작한 개발자입니다. 
+2018년 여름, 키보드 뚜들기기 시작한 개발자입니다. 
 <br/>
-JS를 메인스택으로 여러가지 하면서 사는 중입니다.
+Javascript를 메인스택으로 여러가지 하면서 사는 중입니다.
 <br/>
-2020년부터 fluttter를 눈여겨보고 있습니당
+2020년부터 Flutter로 앱개발을 하고 있습니다.
 <br/>
-계속해서 발전하는 개발자로 기억해주시면 감사하겠습니다 XD
-
+모두 행복하세요 ^^
 </div>
 
 <br />
