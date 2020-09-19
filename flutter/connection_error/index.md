@@ -23,9 +23,9 @@ https://s3.ap-northeast-2.amazonaws.com/image.fitchoo/items/eichichi/eichichi_55
 
 ### git issues.
 
-https://github.com/flutterchina/dio/issues/694
-https://github.com/Baseflow/flutter_cached_network_image/issues/336
-https://github.com/flutter/flutter/issues/25107
+https://github.com/flutterchina/dio/issues/694 <br/>
+https://github.com/Baseflow/flutter_cached_network_image/issues/336 <br/>
+https://github.com/flutter/flutter/issues/25107 <br/>
 
 
 ### 해결방법
@@ -47,7 +47,8 @@ https://github.com/flutter/flutter/issues/25107
 
 2. ConnectionPerHost 최댓값 지정 <br/> 
 
-`class MyHttpOverrides extends HttpOverrides {
+`
+class MyHttpOverrides extends HttpOverrides {
   @override
   HttpClient createHttpClient(SecurityContext context) {
     return super.createHttpClient(context)
@@ -58,7 +59,8 @@ https://github.com/flutter/flutter/issues/25107
 void main() {
   HttpOverrides.global = MyHttpOverrides();
   runApp(MyApp());
-}`
+}
+`
 
 이 코드는 해당 이슈를 서버의 문제로 인식하고 서버의 부담을 덜어주는 방법입니다.
 하나의 방법이 될 수 있습니다.
